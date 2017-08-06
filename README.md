@@ -1,6 +1,9 @@
 # vue-navweb
 利用github gists存储数据的自定义导航页
 
+先来张效果图
+![](http://i.imgur.com/c44hlJr.png)
+
 ## 说明
 
 > 利用github gists api生成自定义导航页
