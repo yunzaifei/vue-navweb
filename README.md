@@ -2,7 +2,7 @@
 利用github gists存储数据的自定义导航页
 
 先来张效果图
-![](http://i.imgur.com/c44hlJr.png)
+![](http://i.imgur.com/FcCiiEc.png)
 
 ## 说明
 
@@ -13,6 +13,8 @@
 > 字体图标使用icommon的字体图标
 
 > 获取网站图标使用[https://api.byi.pw/favicon/?url=blog.icewingcc.com](https://api.byi.pw/favicon)格式获取
+
+> 头部搜索栏默认使用google搜索，如果没有自带翻墙的朋友可以手动在"src/components/menu.vue"文件中改成其他搜索
 
 ## 安装启动
 
