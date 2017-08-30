@@ -1,6 +1,8 @@
 # vue-navweb
 利用github gists存储数据的自定义导航页
 
+示例网站：[http://yunzaifei.com](http://yunzaifei.com)
+
 先来张效果图
 ![](http://i.imgur.com/FcCiiEc.png)
 
