@@ -21,7 +21,7 @@
                                 @dragstart="dragStart($event, groupIndex, webIndex)" 
                                 @dragover="dragOver($event)" @dragleave="dragLeave($event)" 
                                 @drop="drop($event, groupIndex, webIndex)">
-                                    <img class="web-fav" :src="'https://api.byi.pw/favicon/?url='+web.url" :alt="web.description">
+                                    <img class="web-fav" :src="'http://www.google.com/s2/favicons?domain='+web.url" >
                                     <a :href="web.url" target="_blank">{{web.description}}</a>
                                     <span class="icon-pencil opacity" title="修改" v-if="isEdit" @click="showModifyModal('update', groupIndex, webIndex)"></span>
                                     <span class="icon-bin opacity" title="删除" v-if="isEdit" @click="delWeb(groupIndex, webIndex)"></span>
