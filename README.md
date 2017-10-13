@@ -14,7 +14,10 @@
 
 > 字体图标使用icommon的字体图标
 
-> 获取网站图标使用[https://api.byi.pw/favicon/?url=blog.icewingcc.com](https://api.byi.pw/favicon)格式获取
+> 获取网站图标使用  
+[http://www.google.com/s2/favicons?domain=github.com](http://www.google.com/s2/favicons?domain=github.com)  
+[https://api.byi.pw/favicon/?url=github.com](https://api.byi.pw/favicon/?url=github.com)  
+[https://icons.better-idea.org/icon?size=16..80..120&url=github.com](https://icons.better-idea.org/icon?size=16..80..120&url=github.com)
 
 > 头部搜索栏默认使用google搜索，如果没有自带翻墙的朋友可以手动在"src/components/menu.vue"文件中改成其他搜索
 
