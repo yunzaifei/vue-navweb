@@ -2,19 +2,19 @@
     <div class="menu table">
         <div class="tb-cell"></div>
         <div class="tb-cell fix">
-            <span>利用GitHubGist自定义导航页</span>
+            <span>云在飞的导航页</span>
             <ul>
                 <li>
-                    <a href="https://gist.github.com/" target="_blank">GitHubGist</a>
+                    <a href="http://yunzaifei.github.io/" target="_blank">博客</a>
                 </li>
                 <li>
-                    <a href="https://developer.github.com/v3/gists" target="_blank">Gists API</a>
+                    <a href="https://github.com/yunzaifei" target="_blank">GitHub</a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">Help</a>
+                    <a href="https://github.com/yunzaifei/vue-navweb" target="_blank">帮助</a>
                 </li>
                 <li>
-                    <a href="#" id="login"  @click="openModal">Setting</a>
+                    <a href="#" id="login"  @click="openModal">设置</a>
                 </li>
             </ul>
         </div>
