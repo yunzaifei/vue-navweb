@@ -3,10 +3,7 @@
         <a href="http://www.beian.miit.gov.cn" target="_blank">豫ICP备15023008号</a>
     </div>
 </template>
-<script>
-export default {
-    name: 'footer',
-}
+<script setup>
 </script>
 
 <style lang="stylus">

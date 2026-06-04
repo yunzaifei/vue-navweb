@@ -8,19 +8,8 @@
     </div>
 </template>
 
-<script>
-    import axios from 'axios'
-    export default {
-        name: 'search',
-        data() {
-            return {
-                isGoogle: true
-            }
-        },
-        created() {
-            let self = this
-        }
-    }
+<script setup>
+const isGoogle = true
 </script>
 
 <style lang="stylus">

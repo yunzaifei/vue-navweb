@@ -1,32 +1,20 @@
 <template>
   <div id="app">
-    <v-menu></v-menu>
-    <v-search></v-search>
-    <v-content></v-content>
-    <v-footer></v-footer>
+    <NavMenu @open-settings="settingsOpen = true" />
+    <NavSearch />
+    <NavContent v-model:settings-open="settingsOpen" />
+    <NavFooter />
   </div>
 </template>
 
-<script>
-import vMenu from './components/menu.vue'
-import vSearch from './components/search.vue'
-import vContent from './components/content.vue'
-import vFooter from './components/footer'
+<script setup>
+import { shallowRef } from 'vue'
+import NavContent from './components/content.vue'
+import NavFooter from './components/footer.vue'
+import NavMenu from './components/menu.vue'
+import NavSearch from './components/search.vue'
 
-export default {
-  name: 'app',
-  components: {
-    vMenu,
-    vSearch,
-    vContent,
-    vFooter
-  },
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
+const settingsOpen = shallowRef(false)
 </script>
 
 <style lang="stylus">

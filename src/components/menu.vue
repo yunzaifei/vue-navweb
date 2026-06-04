@@ -14,7 +14,7 @@
                     <a href="https://github.com/yunzaifei/vue-navweb" target="_blank">帮助</a>
                 </li>
                 <li>
-                    <a href="#" id="login"  @click="openModal">设置</a>
+                    <a href="#" id="login" @click.prevent="emit('openSettings')">设置</a>
                 </li>
             </ul>
         </div>
@@ -22,18 +22,8 @@
     </div>
 </template>
 
-<script>
-import axios from 'axios'
-
-export default {
-    name: 'menu',
-    methods: {
-        openModal(){
-            let modal = document.getElementById('gistModal');
-            modal.style.display = "block";
-        }
-    }
-}
+<script setup>
+const emit = defineEmits(['openSettings'])
 </script>
 
 <style lang="stylus">
