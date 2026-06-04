@@ -12,6 +12,6 @@
 const isGoogle = true
 </script>
 
-<style lang="stylus">
-    @import '../style/search'
+<style lang="less">
+    @import '../style/search.less';
 </style>

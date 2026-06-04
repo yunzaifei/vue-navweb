@@ -327,6 +327,6 @@ function drop(event, groupIndex, webIndex) {
 }
 </script>
 
-<style lang="stylus">
-    @import '../style/content'
+<style lang="less">
+    @import '../style/content.less';
 </style>

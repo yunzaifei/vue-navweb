@@ -26,6 +26,6 @@
 const emit = defineEmits(['openSettings'])
 </script>
 
-<style lang="stylus">
-    @import '../style/menu'
+<style lang="less">
+    @import '../style/menu.less';
 </style>

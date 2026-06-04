@@ -6,6 +6,6 @@
 <script setup>
 </script>
 
-<style lang="stylus">
-    @import '../style/footer'
+<style lang="less">
+    @import '../style/footer.less';
 </style>

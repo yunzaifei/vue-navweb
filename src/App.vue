@@ -17,6 +17,6 @@ import NavSearch from './components/search.vue'
 const settingsOpen = shallowRef(false)
 </script>
 
-<style lang="stylus">
-  @import 'style/app'
+<style lang="less">
+  @import './style/app.less';
 </style>
