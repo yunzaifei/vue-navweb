@@ -10,7 +10,7 @@
 
 > 利用github gists api生成自定义导航页
 
-> 项目由vue-cli生成，项目结构参考vue-cli init webpack xxx结构
+> 项目已升级为 Vue 3 + Vite 结构
 
 > 字体图标使用icommon的字体图标
 
