@@ -135,9 +135,11 @@ function getGistID() {
 }
 
 function setGistID() {
-  if (gistID.value && filename.value && token.value) {
+  if (gistID.value && filename.value) {
     localStorage.setItem('gistID', gistID.value)
     localStorage.setItem('filename', filename.value)
+  }
+  if (token.value) {
     localStorage.setItem('token', token.value)
   }
   fetchData()
