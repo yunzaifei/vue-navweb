@@ -13,5 +13,20 @@ const isGoogle = true
 </script>
 
 <style lang="less">
-@import '../style/search.less';
+.search {
+  width: 100%;
+  min-width: 700px;
+  text-align: center;
+  margin: 30px 0 10px 0;
+}
+
+.search-text {
+  width: 559px;
+  height: 34px;
+}
+
+.search-button {
+  width: 50px;
+  height: 38px;
+}
 </style>

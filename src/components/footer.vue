@@ -7,5 +7,15 @@
 </script>
 
 <style lang="less">
-@import '../style/footer.less';
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: #cbcbcb;
+  }
+}
 </style>
